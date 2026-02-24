@@ -1,14 +1,14 @@
 body {
     font-family: 'Arial', sans-serif;
       background-image: url("kuvat/taustakuva.jpg");
-      background-size: cover;       /* skaalautuu koko ruudulle */
-      background-position: center;  /* keskeinen osa näkyviin */
+      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
-      min-height: 100vh;            /* vähintään koko ikkunan korkeus */
+      min-height: 100vh;
 }
 
 .otsikko-div {
-      background-color: rgba(255, 255, 255); /* hieman läpinäkyvä valkoinen tausta */
+      background-color: rgba(255, 255, 255);
       padding: 2rem;
       border-radius: 10px;
       text-align: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .sisalto-div {
-      background-color: rgba(255, 255, 255); /* hieman läpinäkyvä valkoinen tausta */
+      background-color: rgba(255, 255, 255);
       padding: 2rem;
       border-radius: 10px;
       width: 90%;
