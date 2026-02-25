@@ -3,10 +3,23 @@ body {
       margin: 0;
 }
 
+/*
 body::before {
       content: "";
       position: fixed;
       inset: 0;
+      background: url("kuvat/taustakuva.jpg") center / cover no-repeat;
+      z-index: -1;
+}
+      */
+
+body::before {
+      content: "";
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100lvh;
       background: url("kuvat/taustakuva.jpg") center / cover no-repeat;
       z-index: -1;
 }
