@@ -2,7 +2,11 @@
 <html>
     <head>
         <title>Title</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-sm bg-body-tertiary">
@@ -31,8 +35,123 @@
                 </div>
             </div>
         </nav>
-        <h1>Pinyin</h1>
-        <p>pinyin</p>
+
+        <div class="d-flex justify-content-center align-items-center vh-100">
+            <div class="otsikko-div">
+                <h1>Pinyin</h1>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="sisalto-div">
+                <h2>Mikä pinyin on?</h2>
+                <p>Pinyin on mandariinikiinan virallinen latinapohjainen kirjoitusjärjestelmä, jonka avulla kiinan
+kielen ääntämistä voidaan kuvata länsimaisin kirjaimin. Sitä käytetään sekä kielen
+opiskelussa että käytännön tilanteissa, kuten sanakirjoissa, oppikirjoissa ja digitaalisessa
+tekstinsyötössä.</p>
+                <p>Pinyin ei ole kiinan kielen oma kirjoitusjärjestelmä, vaan se toimii apukeinona, jonka avulla
+voidaan opetella ääntämistä ja tooneja ennen kuin kiinalaiset merkit ovat tulleet tutuiksi.
+Tästä syystä pinyin on keskeisessä roolissa mandariinikiinan alkeiden opiskelussa ja toimii
+pohjana myöhemmälle oppimiselle.</p>
+
+                <h2>Miksi pinyin on tärkeä aloittelijalle?</h2>
+                <p>Ilman pinyiniä mandariinikiinan ääntämisen opettelu olisi huomattavasti vaikeampaa. Pinyin
+tarjoaa järjestelmällisen tavan kuvata ääntämistä ja tooneja sekä luo sillan ääntämisen ja
+kiinalaisten kirjoitusmerkkien välille.</p>
+                <p>Pinyiniä käytetään tämän sivuston kaikissa myöhemmissä osioissa ääntämisen ja toonien
+tukena. Sen perusteiden ymmärtäminen tekee uusien aiheiden omaksumisesta
+huomattavasti helpompaa.</p>
+
+                <h2>Pinyinin ja länsimaisten kielten ero</h2>
+                <p>Vaikka pinyin käyttää latinalaisia kirjaimia, niiden ääntäminen ei aina vastaa suomen tai
+muiden länsimäisten kielten ääntämystä. Esimerkiksi j- ja x-kirjaimia ei lausuta samalla
+tavalla kuin suomessa. Siksi pinyiniä ei kannata lukea kirjaimellisesti suomen kielen oppien
+mukaan, vaan se tulee opetella omana järjestelmänään.</p>
+                
+                <h2>Mandariinikiinan tavurakenne</h2>
+                <p>Mandariinikiinassa sanat rakentuvat tavuista, ja jokainen tavu muodostaa yleensä yhden
+merkityksellisen yksikön. Pinyinin avulla tämä tavurakenne voidaan kuvata selkeästi.</p>
+                <p>Yksinkertaistettuna tavu koostuu usein alkuäänteestä (konsonantti), loppuäänteestä (vokaali
+tai vokaaliyhdistelmä) ja toonista – esimerkiksi <em class="fst-italic">mǎ</em>, <em class="fst-italic">liú</em> tai <em class="fst-italic">shì</em>.</p>
+                <p>Vaikka kaikki tavut eivät sisällä kaikkia osia, tämä rakenne auttaa hahmottamaan, miten
+ääntäminen muodostuu.</p>
+                
+                <h2>Alkuäänteet (initials)</h2>
+                <p>Alkuäänteet ovat tavun alussa esiintyviä äänteitä. Mandariinikiinassa on 21 alkuäännettä,
+joista osa muistuttaa suomalaisia äänteitä ja osa on täysin uusia. Alkuäänteitä merkitään
+kirjaimin:</p>
+                <ul>
+                    <li>b, p, m, f</li>
+                    <li>d, t, n, l</li>
+                    <li>g, k, h</li>
+                    <li>j, q, x</li>
+                    <li>zh, ch, sh, r</li>
+                    <li>z, c, s</li>
+                </ul>
+                <p>Lisäksi kirjaimia y ja w käytetään tavujen alussa, mutta niitä ei luokitella varsinaisiksi
+alkuäänteiksi, sillä ne eivät edusta itsenäisiä konsonantteja. Sen sijaan niitä käytetään
+apumerkkeinä tietyissä tavuissa.</p>
+
+                <h2>Loppuäänteet (finals)</h2>
+                <p>Loppuäänteet muodostavat tavun ytimen ja sisältävät yleensä vokaaleja tai
+vokaaliyhdistelmiä sekä mahdollisesti n- tai ng-lopun. Niiden lukumäärä vaihtelee
+laskutavasta riippuen, mutta yleisimmin niitä määritellään olevan 35 kappaletta.
+Loppuäänteitä ovat merkitään kirjaimin:</p>
+                <ul>
+                    <li>a, o, e, i, u, ü</li>
+                    <li>ai, ao</li>
+                    <li>ei, ou</li>
+                    <li>ia, ie, iao, iu (iou)</li>
+                    <li>ua, uo, uai, ui (uei)</li>
+                    <li>üe</li>
+                    <li>er</li>
+                    <li>an, en, in, un, ün, ian, uan, üan, uen, ien</li>
+                    <li>ang, eng, ing, ong, iang, uang, iong, ueng</li>
+                </ul>
+
+                <h2>Toonit pinyinissä</h2>
+                <p>Pinyinissä toonit eli sävelkorkeudet merkitään vokaalien päälle sijoitettavilla merkeillä.
+Esimerkiksi tavun ”ma” neljää perustoonia merkitään järjestyksessä ensimmäisestä toonista
+neljänteen <em class="fst-italic">mā</em>, <em class="fst-italic">má</em>, <em class="fst-italic">mǎ</em> ja <em class="fst-italic">mà</em>. Tooneista opitaan lisää <a href="toonit.html" class="link-primary">omassa osiossaan</a>.</p>
+                
+            <h2>Pinyin käytännössä: lukeminen ja kirjoittaminen</h2>
+            <p>Pinyiniä käytetään opiskelun lisäksi arkielämässä myös esimerkiksi sanakirjoissa – pinyinin
+ansiosta sanat voidaan järjestää aakkosjärjestykseen, jolloin sanojen etsiminen on
+helpompaa.</p>
+            <p>Lisäksi pinyiniä käytetään, kun kirjoitetaan mandariinikiinaa tietokoneella tai puhelimella –
+näppäimistöllä kirjoitetaan kiinan kielen sana ensin pinyinillä länsimaisin kirjaimin ja sitten
+valitaan sitä vastaavat kiinalaiset kirjoitusmerkit.</p>
+
+            <h2>Yhteenveto</h2>
+            <p>Pinyin toimii mandariinikiinan opiskelun perustana ja tukee ääntämisen, toonien ja
+myöhemmin myös kiinalaisten merkkien oppimista. Vaikka se käyttää tuttuja kirjaimia,
+kyseessä on oma järjestelmänsä, joka tulee opetella huolellisesti.</p>
+            <p>Kun pinyinin perusperiaatteet ovat hallussa, on huomattavasti helpompaa siirtyä ääntämisen
+yksityiskohtiin ja toonien opetteluun, jotka ovat keskeisiä mandariinikiinan oppimisessa.</p>
+
+            </div>
+        </div>
+
+        <footer class="bg-dark text-light py-4 mt-5">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <h5>学无止境 <em class="fst-italic">xué wú zhǐjìng</em></h5>
+                            <p class="mb-3">Oppimisella ei ole rajoja</p>
+                            <footer class="blockquote-footer">kiinalainen sananlasku</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6 text-md-end mt-4 mt-md-0">
+                        <h5>Yhteystiedot</h5>
+                        <div>Etunimi Sukunimi</div>
+                        <div>etunimi.sukunimi@gmail.com</div>
+                        <div>puh. +358 40 684 9485</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
 </html>
