@@ -29,17 +29,31 @@ body::before {
       width: 90%;
 }
 
-.sisalto-div iframe {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
-    max-width: 900px;
-    display: block;
-    margin: 1.5rem auto;
+a img {
+      border: 1px solid black;
+      transition: box-shadow 0.3s, transform 0.3s;
+}
+
+a img:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      transform: translateY(-4px);
+}
+
+iframe {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+      max-width: 900px;
+      display: block;
+      margin: 1.5rem auto;
 }
 
 @media (max-width: 600px) {
       .sisalto-div {
             padding: 3rem 1rem;
       }
+}
+
+@media (max-width: 400px) {
+      
 }
