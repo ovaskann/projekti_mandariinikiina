@@ -2,7 +2,12 @@
 <html>
     <head>
         <title>Title</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-sm bg-body-tertiary">
@@ -31,8 +36,393 @@
                 </div>
             </div>
         </nav>
-        <h1>Fraasit</h1>
-        <p>Fraasit</p>
+
+        <div class="d-flex justify-content-center align-items-center vh-100">
+            <div class="otsikko-div">
+                <h1>Yleisiä fraaseja</h1>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="sisalto-div">
+                <div class="list-group">
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/hei.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">你好。</div>
+                                        <div><em class="fst-italic">Nǐ hǎo.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Hei.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/näkemiin.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">再见。</div>
+                                        <div><em class="fst-italic">Zàijiàn.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Näkemiin.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/hei_monikko.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">你们好。</div>
+                                        <div><em class="fst-italic">Nǐmen hǎo.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Hei. (monikko)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/mitä_kuuluu.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">你好吗？</div>
+                                        <div><em class="fst-italic">Nǐ hǎo ma?</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Mitä kuuluu?
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/kuuluu_hyvää.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">我很好。</div>
+                                        <div><em class="fst-italic">Wǒ hěn hǎo.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Kuuluu hyvää.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/entä_sinulle.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">你呢？</div>
+                                        <div><em class="fst-italic">Nǐ ne?</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Entä sinulle?
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/mikä_nimesi_on.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">你叫什么名字？</div>
+                                        <div><em class="fst-italic">Nǐ jiào shénme míngzi?</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Mikä nimesi on?
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/nimeni_on.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">我叫。。。</div>
+                                        <div><em class="fst-italic">Wǒ jiào...</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Nimeni on...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/hauska_tutustua.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">很高兴认识你。</div>
+                                        <div><em class="fst-italic">Hěn gāoxìng rènshi nǐ.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Hauska tutustua.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/kiitos.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">谢谢。</div>
+                                        <div><em class="fst-italic">Xièxie.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Kiitos.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/eipä_kestä.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">不客气。</div>
+                                        <div><em class="fst-italic">Bú kèqi.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Eipä kestä.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/anteeksi.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">对不起。</div>
+                                        <div><em class="fst-italic">Duìbuqǐ.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Anteeksi.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/ei_se_mitään.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">没关系。</div>
+                                        <div><em class="fst-italic">Méi guānxi.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Ei se mitään.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/anteeksi_kysyttäessä_neuvoa.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">请问。</div>
+                                        <div><em class="fst-italic">Qǐngwèn.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Anteeksi. (kysyttäessä neuvoa)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/hyvää_huomenta.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">早上好。</div>
+                                        <div><em class="fst-italic">Zǎoshang hǎo.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Hyvää huomenta.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/hyvää_iltaa.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">晚上好。</div>
+                                        <div><em class="fst-italic">Wǎnshang hǎo.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Hyvää iltaa.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/hyvää_yötä.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">晚安。</div>
+                                        <div><em class="fst-italic">Wǎn'ān.</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Hyvää yötä.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="btn btn-link p-0 audio-btn" data-audio="audio/anteeksi_missä_on_vessa.mp3">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                    </button>
+                                    <div>
+                                        <div class="fs-5">请问， 洗手间在哪里？</div>
+                                        <div><em class="fst-italic">Qǐngwèn, xǐshǒujiān zài nǎlǐ?</em></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-2 mt-md-0 text-md-end ms-4 ms-md-0">
+                                Anteeksi, missä on vessa?
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-light py-4 mt-5">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <h5>学无止境 <em class="fst-italic">xué wú zhǐjìng</em></h5>
+                            <p class="mb-3">Oppimisella ei ole rajoja</p>
+                            <footer class="blockquote-footer">kiinalainen sananlasku</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6 text-md-end mt-4 mt-md-0">
+                        <h5>Yhteystiedot</h5>
+                        <div>Etunimi Sukunimi</div>
+                        <div>etunimi.sukunimi@gmail.com</div>
+                        <div>puh. +358 40 684 9485</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+    document.querySelectorAll('.audio-btn').forEach(button => {
+        button.addEventListener('click', function () {
+            const tiedosto = this.dataset.audio;
+            const audio = new Audio(tiedosto);
+            audio.play();
+        });
+    });
+    </script>
+    
     </body>
 </html>
