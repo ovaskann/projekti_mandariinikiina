@@ -29,6 +29,11 @@ body::before {
       width: 90%;
 }
 
+.kuvalinkki {
+      max-width: 250px;
+      height: auto;
+}
+
 .isokuva {
       max-height: 70vh;
       max-width: 100%;
@@ -60,6 +65,11 @@ iframe {
       margin: 1.5rem auto;
 }
 
+.fraasilista {
+      max-width: 750px;
+      margin: 0 auto;
+}
+
 @media (max-width: 600px) {
       .sisalto-div {
             padding: 3rem 1rem;
@@ -67,5 +77,7 @@ iframe {
 }
 
 @media (max-width: 400px) {
-      
+      .kuvalinkki {
+            max-width: 100%;
+      }
 }
