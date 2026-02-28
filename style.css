@@ -29,6 +29,18 @@ body::before {
       width: 90%;
 }
 
+.isokuva {
+      max-height: 70vh;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+}
+
+.pienikuva {
+      max-height: 30vh;
+      max-width: 100%;
+}
+
 a img {
       border: 1px solid black;
       transition: box-shadow 0.3s, transform 0.3s;
@@ -43,7 +55,7 @@ iframe {
       width: 100%;
       height: auto;
       aspect-ratio: 16/9;
-      max-width: 900px;
+      max-width: 560px;
       display: block;
       margin: 1.5rem auto;
 }
