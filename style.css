@@ -50,6 +50,15 @@ body::before {
       width: 90%;
 }
 
+h2 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+}
+
+.sisalto-div h2:first-child {
+      margin-top: 0;
+}
+
 .kuvalinkki {
       max-width: 250px;
       height: auto;
@@ -90,7 +99,12 @@ iframe {
       aspect-ratio: 16/9;
       max-width: 560px;
       display: block;
-      margin: 1.5rem auto;
+      margin: 1.5rem auto 3rem auto;
+
+}
+
+ol li {
+      margin-top: 1rem;
 }
 
 .fraasilista {
