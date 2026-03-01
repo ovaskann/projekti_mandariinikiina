@@ -98,6 +98,20 @@ iframe {
       margin: 0 auto;
 }
 
+.audio-btn i {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      transition: background-color 0.2s;
+}
+
+.audio-btn.aktiivinen-audio i {
+      background-color: rgb(205, 225, 254);
+}
+
 @media (max-width: 600px) {
       .sisalto-div {
             padding: 3rem 1rem;
