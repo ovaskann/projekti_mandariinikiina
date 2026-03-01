@@ -14,6 +14,27 @@ body::before {
       z-index: -1;
 }
 
+.navigointipalkki {
+      background-color: rgb(253, 252, 245);
+      border-bottom: 1px solid #ccc;
+}
+
+.navigointipalkki .nav-link {
+      transition: all 0.2s ease;
+}
+
+.navigointipalkki .nav-link:hover {
+      color: black;
+      background-color: rgb(232, 230, 219);
+      border-radius: 4px;
+}
+
+.navigointipalkki .nav-link.active {
+      color: black;
+      background-color: rgb(220, 217, 200);
+      border-radius: 4px;
+}
+
 .otsikko-div {
       background-color: rgba(255, 255, 255);
       padding: 2rem;
@@ -35,15 +56,22 @@ body::before {
 }
 
 .isokuva {
-      max-height: 70vh;
+      max-height: 80vh;
       max-width: 100%;
       display: block;
       margin: 0 auto;
 }
 
 .pienikuva {
-      max-height: 30vh;
+      max-height: 25vh;
       max-width: 100%;
+      display: block;
+      margin: 0 auto;
+}
+
+.kuvareunat {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
 }
 
 a img {
