@@ -425,13 +425,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <script>
-    document.querySelectorAll('.audio-btn').forEach(button => {
-        button.addEventListener('click', function () {
-            const tiedosto = this.dataset.audio;
-            const audio = new Audio(tiedosto);
-            audio.play();
+        let nykyinenAudio = null;
+
+        document.querySelectorAll('.audio-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                const tiedosto = this.dataset.audio;
+
+                if(nykyinenAudio) {
+                    nykyinenAudio.pause();
+                    nykyinenAudio.currentTime = 0;
+                }
+
+                const audio = new Audio(tiedosto);
+                nykyinenAudio = audio;
+
+                document.querySelectorAll('.audio-btn').forEach(button => button.classList.remove('aktiivinen-audio'));
+                this.classList.add('aktiivinen-audio');
+
+                audio.play();
+
+                const btn = this;
+                audio.addEventListener('ended', function () {
+                    btn.classList.remove('aktiivinen-audio');
+                    nykyinenAudio = null;
+                });
+            });
         });
-    });
     </script>
     
     </body>
