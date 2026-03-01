@@ -126,6 +126,14 @@ ol li {
       background-color: rgb(205, 225, 254);
 }
 
+
+@media (max-width: 700px) {
+      .d-flex.flex-wrap {
+            flex-direction: column-reverse;
+            align-items: center;
+    }
+}
+
 @media (max-width: 600px) {
       .sisalto-div {
             padding: 3rem 1rem;
