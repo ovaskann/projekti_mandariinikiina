@@ -9,29 +9,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <nav class="navbar sticky-top navbar-expand-sm navigointipalkki">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">johdanto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pinyin.html">pinyin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aantaminen.html">ääntaminen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="toonit.html">toonit</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fraasit.html">fraasit</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav text-center gap-lg-5 gap-md-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">johdanto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="pinyin.html">pinyin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aantaminen.html">ääntaminen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="toonit.html">toonit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fraasit.html">fraasit</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -56,7 +56,7 @@ pohjana myöhemmälle oppimiselle.</p>
                 <picture>
                     <source srcset="kuvat/pinyin_mobiili.png" media="(max-width: 600px)">
                     <img src="kuvat/pinyin.png"
-                        class="isokuva"
+                        class="isokuva kuvareunat"
                         alt="Kiinankielistä tekstiä, jossa yllä on pinyin ja alla kiinalaiset kirjoitusmerkit">
                 </picture>
 
@@ -127,7 +127,12 @@ helpompaa.</p>
             <p>Lisäksi pinyiniä käytetään, kun kirjoitetaan mandariinikiinaa tietokoneella tai puhelimella –
 näppäimistöllä kirjoitetaan kiinan kielen sana ensin pinyinillä länsimaisin kirjaimin ja sitten
 valitaan sitä vastaavat kiinalaiset kirjoitusmerkit.</p>
-            <img src="kuvat/pinyin_typing.png" class="img-fluid my-4" alt="kiinan kielen kirjoittamista tietokoneella pinyinillä">
+            <picture>
+                <source srcset="kuvat/pinyin_typing_mobiili.png" media="(max-width: 600px)">
+                <img src="kuvat/pinyin_typing.png" 
+                    class="pienikuva kuvareunat"
+                    alt="kiinan kielen kirjoittamista tietokoneella pinyinillä">
+            </picture>
 
             <h2>Yhteenveto</h2>
             <p>Pinyin toimii mandariinikiinan opiskelun perustana ja tukee ääntämisen, toonien ja
