@@ -64,6 +64,17 @@ h2 {
       height: auto;
 }
 
+.kuvakehys {
+      display: inline-block;
+      text-align: center;
+}
+
+.kuvateksti {
+      font-size: 0.9rem;
+      color: rgb(85, 85, 85);
+      margin-top: 1rem;
+}
+
 .isokuva {
       max-height: 80vh;
       max-width: 100%;
